@@ -1,0 +1,24 @@
+@import './icon/icon.wxss';
+view,page,text,swiper,button,swiper-item,img{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+page{
+  /* 定义主题颜色 */
+  --themeColor:#d4237a;
+  /* 定义统一字体大小 1px=2rpx*/
+  font-size: 28rpx;
+}
+
+image{
+  width: 100%;
+}

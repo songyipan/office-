@@ -1,0 +1,18 @@
+<view class="color">
+    <view bindtap="handleColor" data-icon="icondrxx18" data-index="blues" data-color="blues_2" data-icon="icondrxx18" class="blue"></view>
+    <view bindtap="handleColor" data-icon="" data-index="grenns" data-color="grenns_s" data-icon="icontubiaozhizuomobanyihuifu-" class="grenn"></view>
+    <view bindtap="handleColor" data-icon="" data-index="yellos" data-color="yellos_s" data-icon="iconziyuan160" class="yello"></view>
+    <view bindtap="handleColor" data-icon="" data-index="violets" data-color="violets_s" data-icon="iconbiangengjilu" class="violet"></view>
+    <view bindtap="handleColor" data-icon="" data-index="reds" data-color="reds_s" data-icon="iconweiwangguanicon-defuben-" class="red"></view>
+    <view bindtap="handleColor" data-icon="" data-index="wiss" data-color="wiss_s" data-icon="icontongzhi" class="wis"></view>
+</view>
+<view class="flag">
+  <view class="title">Flage</view>
+  <input class="{{textclass}}" value="{{flagvalue}}" bindinput="biandvalue"/> 
+  <button size="mini" bind:tap="handleadd">添加</button>
+</view>
+<view class="flaglist" wx:for="{{flaglist}}" wx:key="index">
+    <view class="{{flaglist[index].color}}">
+      <navigator url="/pages/card/card_index?index={{index}}"><text>{{item.flagvalue}}</text><text>打卡{{item.number}}次</text></navigator>
+    </view>
+</view>

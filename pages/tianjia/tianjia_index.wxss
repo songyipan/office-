@@ -1,0 +1,48 @@
+view.title {
+  padding: 20rpx;
+}
+view.main input {
+  background-color: white;
+  border-radius: 10rpx;
+  width: 300rpx;
+  padding: 10rpx;
+  margin-left: 20rpx;
+}
+view.main view.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+view.main view.text textarea {
+  background-color: white;
+  border-radius: 10rpx;
+  width: 100%;
+  margin: 20rpx;
+  padding: 20rpx;
+}
+view.main .tu view {
+  padding: 20rpx;
+}
+view.main .tu button {
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffefe;
+  color: #ccc;
+  font-size: 50rpx;
+  margin: 0;
+  margin-left: 20rpx;
+}
+view.main .tu image {
+  width: 95%;
+  border-radius: 10rpx;
+  margin-left: 22rpx;
+}
+page {
+  background-color: #f8f8f4;
+}
+button {
+  background-color: #ffe901;
+}

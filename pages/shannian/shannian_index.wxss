@@ -1,0 +1,118 @@
+view.shannian view.color {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx;
+}
+view.shannian view.color view.blue {
+  border-radius: 50%;
+  background-color: #4d90fe;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.shannian view.color view.wis {
+  border-radius: 50%;
+  background-color: #ccc;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.shannian view.color view.grenn {
+  border-radius: 50%;
+  background-color: #80c342;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.shannian view.color view.yello {
+  border-radius: 50%;
+  background-color: #ffc700;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.shannian view.color view.violet {
+  border-radius: 50%;
+  background-color: #d94bf9;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.shannian view.color view.red {
+  border-radius: 50%;
+  background-color: #f75746;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.shannian view.text {
+  display: flex;
+  align-items: center;
+}
+view.shannian view.text textarea {
+  border-radius: 60rpx;
+  width: 100%;
+  margin: 20rpx 40rpx;
+  padding: 40rpx;
+  background-color: #f8f8f8;
+  height: 100rpx;
+}
+view.shannian view.text .blues {
+  background-color: #4d90fe;
+}
+view.shannian view.text .grenns {
+  background-color: #80c342;
+}
+view.shannian view.text .yellos {
+  background-color: #ffc700;
+}
+view.shannian view.text .violets {
+  background-color: #d94bf9;
+}
+view.shannian view.text .reds {
+  background-color: #ff4b38;
+}
+view.shannian view.text .wiss {
+  background-color: #f8f8f8;
+}
+view.shannian button {
+  background-color: #ffe901;
+  border-radius: 30rpx;
+}
+view.shannian view.cun {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+view.shannian view.cun view {
+  /* 让第二行文字出现省略号 */
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  padding: 15rpx 30rpx;
+  margin: 40rpx;
+  margin-bottom: 10rpx;
+  border-radius: 40rpx;
+  color: #686565;
+  line-height: 45rpx;
+  font-size: 25rpx;
+}
+view.shannian view.cun view .iconfont {
+  font-size: 35rpx;
+  margin-right: 20rpx;
+}
+view.shannian view.cun .blues_2 {
+  background-color: #4d90fe;
+}
+view.shannian view.cun .grenns_s {
+  background-color: #80c342;
+}
+view.shannian view.cun .yellos_s {
+  background-color: #ffc700;
+}
+view.shannian view.cun .violets_s {
+  background-color: #da86ec;
+}
+view.shannian view.cun .reds_s {
+  background-color: #f36757;
+}
+view.shannian view.cun .wiss_s {
+  background-color: #f8f8f8;
+}

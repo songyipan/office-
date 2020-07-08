@@ -1,0 +1,51 @@
+view.card view.head {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+view.card view.head view.data {
+  font-size: 37rpx;
+  color: #f8d762;
+  font-weight: bold;
+}
+view.card view.head view.sign {
+  margin-top: 5%;
+  width: 330rpx;
+  height: 330rpx;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  border: solid #f8d762 1rpx;
+  box-shadow: 0 0 10px #f8d762;
+}
+view.card view.head view.sign view.signnei {
+  width: 300rpx;
+  height: 300rpx;
+  text-align: center;
+  line-height: 300rpx;
+  background-color: #f8d762;
+  border-radius: 50%;
+  color: white;
+  font-size: 50rpx;
+}
+view.card view.list {
+  margin-top: 10%;
+}
+view.card view.list view.title {
+  padding: 20rpx;
+  margin: 20rpx;
+  border-bottom: 1rpx solid #f8d762;
+  color: #f8d762;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+view.card view.list view {
+  padding: 20rpx;
+  margin-left: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

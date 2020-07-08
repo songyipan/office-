@@ -1,0 +1,15 @@
+<view class="datu">
+  <image src="https://s1.ax1x.com/2020/07/07/UkQIwn.jpg"/>
+</view>
+<view class="search">
+  <view class="tltie">闪念记录</view>
+  <view class="main">
+      <navigator class="list"
+      wx:for="{{contentList}}"
+      wx:key="index"
+      url="/pages/xiangqing/xiangqing_index?index={{index}}"
+      >
+        <text>{{item.inputlist}}</text>
+      </navigator>
+  </view>
+</view>

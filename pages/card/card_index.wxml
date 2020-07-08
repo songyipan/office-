@@ -1,0 +1,10 @@
+<view class="card">
+   <view class="head">
+     <view class="data">2020年8月14日</view>
+     <view class="sign"><view class="signnei" bind:tap="handlecard">打卡</view></view>
+   </view>
+   <view class="list">
+     <view class="title">打卡记录</view>
+     <view wx:for="{{cardlist}}" wx:key="index"><text>{{cardlist[index].data}}</text>打卡+1</view>
+   </view>
+</view>

@@ -1,0 +1,9 @@
+view.xiangqing text {
+  padding: 20rpx;
+  display: block;
+}
+view.xiangqing image {
+  width: 95%;
+  border-radius: 10rpx;
+  margin-left: 22rpx;
+}

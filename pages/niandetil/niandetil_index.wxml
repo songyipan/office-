@@ -1,0 +1,3 @@
+<!--pages/niandetil/niandetil_index.wxml-->
+<textarea value="{{value}}"></textarea>
+<button bind:tap="handledel">删除</button>

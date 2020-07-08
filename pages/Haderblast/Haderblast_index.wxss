@@ -1,0 +1,26 @@
+view.blast view.tool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20rpx;
+}
+view.blast view.tool view {
+  padding: 10rpx;
+}
+view.blast .activ {
+  width: 150rpx;
+  height: 50rpx;
+  background-color: #ccc;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+movable-area {
+  width: 100%;
+  height: 1000px;
+}
+movable-area movable-view {
+  width: 150rpx;
+  padding: 10rpx;
+  background-color: #ccc;
+}

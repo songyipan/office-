@@ -1,0 +1,7 @@
+
+<button type="primary"
+ plain="{{true}}" 
+ open-type="getUserInfo"
+ bindgetuserinfo="hadleinfo"
+ >登录
+ </button>

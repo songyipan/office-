@@ -1,0 +1,85 @@
+.userinfo_warp {
+  height: 45vh;
+  overflow: hidden;
+  background-color: #faec5d;
+  position: relative;
+}
+.userinfo_warp .user_img_warp {
+  position: relative;
+}
+.userinfo_warp .user_img_warp .user_bg {
+  height: 47vh;
+  /* 高斯模糊 */
+  filter: blur(40rpx);
+}
+.userinfo_warp .user_img_warp .userinfo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.userinfo_warp .user_img_warp .userinfo .user_icon {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.userinfo_warp .user_img_warp .userinfo .usermame {
+  color: white;
+  margin-top: 40rpx;
+}
+.login {
+  width: 300rpx;
+  height: 100rpx;
+  border: solid #000000 1rpx;
+  display: flex;
+  border-radius: 10rpx;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 30%;
+}
+.login navigator {
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #000000;
+  font-size: 30rpx;
+}
+view.jiewei view.lianxi {
+  background-color: #eeeeee;
+  height: 70rpx;
+  margin: 20rpx 20rpx;
+  border-radius: 20rpx;
+}
+view.jiewei view.lianxi button {
+  margin: 0;
+  background-color: #eeeeee;
+  padding: 20rpx;
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  color: #242424;
+}
+view.jiewei view.fenxiang {
+  background-color: #eeeeee;
+  height: 70rpx;
+  margin: 20rpx 20rpx;
+  border-radius: 20rpx;
+}
+view.jiewei view.fenxiang button {
+  margin: 0;
+  background-color: #eeeeee;
+  padding: 20rpx;
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  color: #242424;
+}

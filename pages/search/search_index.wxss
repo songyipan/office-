@@ -1,0 +1,51 @@
+view.search view.tltie {
+  height: 40rpx;
+  margin: 20rpx 20rpx 10rpx 10rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  background-color: #fff7d1;
+}
+view.search view.main .list {
+  height: 50rpx;
+  margin: 20rpx 20rpx 10rpx 10rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+}
+view.search view.main .list text {
+  text-align: center;
+  width: 300rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+view.search .xuexi {
+  background-color: #ffc700;
+}
+view.search .riji {
+  background-color: #80c342;
+}
+view.search .xinqing {
+  background-color: #e94242;
+}
+view.search .shiqing {
+  background-color: #4d90fe;
+}
+.datu {
+  height: 350rpx;
+  margin: 20rpx 20rpx;
+  border-radius: 10rpx;
+}
+.datu image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}

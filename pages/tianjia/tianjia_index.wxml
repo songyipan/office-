@@ -1,0 +1,15 @@
+<view class="title" wx:if="{{index==1}}">今天又是收获知识的一天....</view>
+<view class="title" wx:if="{{index==3}}">今天发生了有趣的小事....</view>
+<view class="title" wx:if="{{index==4}}">写写日记.....</view>
+<view class="main">
+    <input value="{{inputlist}}" placeholder="要写标题...." bindinput="handleinput" />
+  <view class="text">
+    <textarea bindinput="handletext" value="{{textlist}}" placeholder="从这里开始....."></textarea>
+  </view>
+  <view class="tu">
+    <view wx:if="{{!image}}">配点图</view>
+    <button bind:tap="handleiamge" wx:if="{{!image}}">+</button>
+    <image wx:if="{{image}}" mode="widthFix" src="{{image}}" />
+  </view>
+  <button bindtap="handelbtn">保存</button>
+</view>

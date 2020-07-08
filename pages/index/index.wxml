@@ -1,0 +1,40 @@
+<view class="datu">
+  <image mode="widthFix" src="https://s1.ax1x.com/2020/06/17/NVqi1P.png" />
+</view>
+<view class="index">
+  <view class="jizhang_book">
+    <navigator url="/pages/jizhang/jizhang_index"><text  class="iconfont bluef iconziyuan160"></text><text class="text">小记账本</text>
+    <text  class="iconfont iconyou"></text>
+    </navigator>
+  </view>
+  <view class="flag_book">
+  <navigator url="/pages/flag/flag_index"><text  class="iconfont bluef iconflag"></text><text class="text">我的flag</text>
+   <text  class="iconfont iconyou"></text>
+  </navigator>
+  </view>
+  <view class="study_book">
+    <navigator url="/pages/tianjia/tianjia_index?index=1"><text  class="iconfont blue icondrxx18"></text><text class="text">学习日志</text>
+     <text  class="iconfont iconyou"></text>
+    </navigator>
+  </view>
+  <view class="xiqing_book">
+  <navigator url="/pages/shannian/shannian_index"><text  class="iconfont iconziyuan green"></text><text class="text">闪念胶囊</text>
+   <text  class="iconfont iconyou"></text>
+  </navigator>
+  </view>
+  <view class="shiqing_book">
+  <navigator url="/pages/tianjia/tianjia_index?index=3"><text  class="iconfont red iconbiangengjilu"></text><text class="text">记事本</text>
+   <text  class="iconfont  iconyou"></text>
+  </navigator>
+  </view>
+  <view class="riji_book">
+  <navigator url="/pages/tianjia/tianjia_index?index=4"><text  class="iconfont yello icongongzuorizhi2"></text><text class="text">我的日记</text>
+   <text  class="iconfont iconyou"></text>
+  </navigator>
+  </view>
+  <view class="riji_book">
+  <navigator url="/pages/Haderblast/Haderblast_index"><text  class="iconfont zi size icondanao"></text><text class="text">头脑大爆炸</text>
+   <text  class="iconfont iconyou"></text>
+  </navigator>
+  </view>
+</view>

@@ -1,0 +1,79 @@
+<view class="blast">
+  <view class="title">程序框图</view>
+  <view class="tool">
+    <view bind:tap="handleactiv" data-active="1">起止</view>
+    <view bind:tap="handleactiv" data-active="2">判断</view>
+    <view bind:tap="handleactiv" data-active="3">输入、输出</view>
+    <view bind:tap="handleactiv" data-active="4">注释</view>
+    <view bind:tap="handleactiv" data-active="5">执行</view>
+    <view bind:tap="handleactiv" data-active="6">连接点</view>
+    <view bind:tap="handleactiv" data-active="7">流程线竖</view>
+    <view bind:tap="handleactiv" data-active="8">流程线横</view>
+  </view>
+</view>
+<!-- <movable-area scale-area="{{true}}" wx:if="{{active}}">
+    <movable-view
+    out-of-bounds="{{false}}"
+    direction="all"
+    wx:for="{{lets_1}}" wx:key="lets_1"
+    >
+        <view wx:if="{{active==1}}">起止</view>
+        <view wx:if="{{active==2}}">判断</view>
+        <view wx:if="{{active==3}}">输入、输出</view>
+        <view wx:if="{{active==4}}">注释</view>
+        <view wx:if="{{active==5}}">执行</view>
+        <view wx:if="{{active==6}}">连接点</view>
+        <view wx:if="{{active==7}}">流程线竖</view>
+        <view wx:if="{{active==8}}">流程线横</view>
+    </movable-view>
+</movable-area> -->
+
+<movable-area scale-area="{{true}}" wx:if="{{active}}">
+<!-- 今天用for循环控制每一个组件的增加 -->
+    <movable-view bind:touchend="handletouch"
+     wx:if="{{active==1}}"
+     data-actives="1"
+     out-of-bounds="{{false}}" 
+     direction="{{all}}" 
+     disabled="{{disabled}}">起止</movable-view>
+    <movable-view 
+    wx:if="{{active==2}}"
+    data-actives="1"
+     out-of-bounds="{{false}}" 
+     direction="all" 
+     direction="{{all}}">判断</movable-view>
+    <movable-view 
+    wx:if="{{active==3}}"
+    data-actives="1" 
+    out-of-bounds="{{false}}" 
+    direction="all">输入、输出</movable-view>
+    <movable-view 
+    wx:if="{{active==4}}"
+    data-actives="1"
+    out-of-bounds="{{false}}" 
+    direction="all">注释</movable-view>
+    <movable-view 
+    wx:if="{{active==5}}"
+    data-actives="1"
+    out-of-bounds="{{false}}"
+    direction="all">执行</movable-view>
+    <movable-view 
+    wx:if="{{active==6}}" 
+    data-actives="1"
+    out-of-bounds="{{false}}" 
+    direction="all">连接点</movable-view>
+    <movable-view 
+    wx:if="{{active==7}}" 
+    data-actives="1"
+    out-of-bounds="{{false}}" 
+    direction="all">流程线竖</movable-view>
+    <movable-view 
+    wx:if="{{active==8}}" 
+    data-actives="1"
+    out-of-bounds="{{false}}" 
+    direction="all">流程线横</movable-view>
+</movable-area>
+
+<!-- <view class="test" wx:for="{{let}}" wx:key="let">
+    {{let}}
+</view> -->

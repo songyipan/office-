@@ -1,0 +1,32 @@
+<view class="user">
+   <text>我的余额 : </text>
+   <input type="text" value="{{money}}" bindinput="bindmoney" placeholder="充值" />
+   <button size="mini" bind:tap="handleadds">确定</button>
+</view>
+<view class="user">
+   <text>消费flag :</text>
+   <input type="text" value="{{flag_monet}}" bindinput="bindflag" placeholder="money" />
+   <button size="mini" bind:tap="handleflag">OK</button>
+</view>
+<view class="bianliang">
+ <text>进/出￥了 : </text>
+    <button bind:tap="handlereduce" size="mini"
+     data-color="red"
+     data-active="-"
+    >-</button>
+    <input bindinput="biandbian" value="{{value_ra}}" type="text" />
+    <button bind:tap="handleadd" size="mini"
+    data-color="green"
+    data-active="+"
+    >+</button>
+</view>
+<view class="consumption">
+    <view class="title">花钱记录</view>
+    <view class="conplist"
+    wx:for="{{conplist}}"
+    wx:key="*this"
+    >
+    <view class="qian {{item.color=='red'?'red':'green'}}">{{item.active}}{{item.money}}</view>
+    <view class="time">{{item.time}}</view>
+    </view>
+</view>

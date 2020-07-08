@@ -1,0 +1,114 @@
+view.flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+view.flag .title {
+  font-weight: bold;
+}
+view.flag input {
+  border-radius: 60rpx;
+  margin: 20rpx 40rpx;
+  padding: 20rpx;
+  background-color: #f8f8f8;
+  height: 40rpx;
+}
+view.flag .blues {
+  background-color: #4d90fe;
+}
+view.flag .grenns {
+  background-color: #80c342;
+}
+view.flag .yellos {
+  background-color: #ffc700;
+}
+view.flag .violets {
+  background-color: #d94bf9;
+}
+view.flag .reds {
+  background-color: #ff4b38;
+}
+view.flag .wiss {
+  background-color: #f8f8f8;
+}
+view.flag button {
+  background-color: #ffe901;
+  border-radius: 30rpx;
+  width: 150rpx;
+}
+view.color {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx;
+}
+view.color view.blue {
+  border-radius: 50%;
+  background-color: #4d90fe;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.color view.wis {
+  border-radius: 50%;
+  background-color: #ccc;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.color view.grenn {
+  border-radius: 50%;
+  background-color: #80c342;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.color view.yello {
+  border-radius: 50%;
+  background-color: #ffc700;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.color view.violet {
+  border-radius: 50%;
+  background-color: #d94bf9;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.color view.red {
+  border-radius: 50%;
+  background-color: #f75746;
+  width: 50rpx;
+  height: 50rpx;
+}
+view.flaglist .blues {
+  background-color: #4d90fe;
+}
+view.flaglist .grenns {
+  background-color: #80c342;
+}
+view.flaglist .yellos {
+  background-color: #ffc700;
+}
+view.flaglist .violets {
+  background-color: #d94bf9;
+}
+view.flaglist .reds {
+  background-color: #ff4b38;
+}
+view.flaglist .wiss {
+  background-color: #f8f8f8;
+}
+view.flaglist view {
+  margin: 40rpx 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rpx;
+}
+view.flaglist view navigator {
+  width: 100%;
+  padding: 20rpx 80rpx;
+  height: 40rpx;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}

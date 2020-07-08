@@ -1,0 +1,6 @@
+<view class="xiangqing">
+  <text>
+      {{content.textlist}}
+  </text>
+  <image mode="widthFix" src="{{content.image}}" />
+</view>

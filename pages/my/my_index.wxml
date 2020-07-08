@@ -1,0 +1,16 @@
+<view class="userinfo_warp">
+    <view class="user_img_warp" wx:if="{{userinfo.avatarUrl}}">
+        <image src="{{userinfo.avatarUrl}}" class="user_bg" />
+        <view class="userinfo">
+          <image src="{{userinfo.avatarUrl}}" class="user_icon" />
+          <view class="usermame">{{userinfo.nickName}}</view>
+        </view>
+    </view>
+    <view class="login" wx:else>
+      <navigator url="/pages/logs/logs">登录</navigator>
+    </view>
+</view>
+<view class="jiewei">
+  <view class="lianxi"><button open-type="contact">联系客服</button></view>
+  <view class="fenxiang"><button open-type="share">分享应用</button></view>
+</view>

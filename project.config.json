@@ -1,0 +1,144 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.0",
+	"appid": "wxbaf737dd90291fd5",
+	"projectname": "wechat3",
+	"cloudfunctionTemplateRoot": "",
+	"watchOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "写写字",
+					"pathName": "pages/tianjia/tianjia_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/logs/logs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "小个人",
+					"pathName": "pages/my/my_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "列表",
+					"pathName": "pages/search/search_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "我写的",
+					"pathName": "pages/xiangqing/xiangqing_index",
+					"query": "index=2",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "小记账本",
+					"pathName": "pages/jizhang/jizhang_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的flag",
+					"pathName": "pages/flag/flag_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "闪念胶囊",
+					"pathName": "pages/shannian/shannian_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "大爆炸",
+					"pathName": "pages/Haderblast/Haderblast_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "日记",
+					"pathName": "pages/diary/diary_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "打卡",
+					"pathName": "pages/card/card_index",
+					"scene": null
+				}
+			]
+		}
+	}
+}

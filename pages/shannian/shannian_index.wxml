@@ -1,0 +1,26 @@
+<view class="shannian">
+  <view class="color">
+    <view bindtap="handleColor" data-index="blues" data-color="blues_2" data-icon="icondrxx18" class="blue"></view>
+    <view bindtap="handleColor" data-index="grenns" data-color="grenns_s" data-icon="icontubiaozhizuomobanyihuifu-" class="grenn"></view>
+    <view bindtap="handleColor" data-index="yellos" data-color="yellos_s" data-icon="iconziyuan160" class="yello"></view>
+    <view bindtap="handleColor" data-index="violets" data-color="violets_s" data-icon="iconbiangengjilu" class="violet"></view>
+    <view bindtap="handleColor" data-index="reds" data-color="reds_s" data-icon="iconweiwangguanicon-defuben-" class="red"></view>
+    <view bindtap="handleColor" data-index="wiss" data-color="wiss_s" data-icon="icontongzhi" class="wis"></view>
+  </view>
+  <view class="text">
+    <textarea class="{{textclass}}" bindinput="handletext" placeholder="长按空格键调用语音输入....."></textarea>
+  </view>
+  <button bind:tap="handleDeposit">保存</button>
+  <view
+  wx:for="{{textlist}}"
+  wx:key="index"
+   class="cun">
+    <view class="{{textlist[index].color}}">
+      <navigator url="/pages/niandetil/niandetil_index?index={{index}}">
+      <text  class="iconfont {{textlist[index].icon}}"></text>
+      <text class="text">{{textlist[index].text}}</text>
+      <text  class="iconfont iconyou"></text>
+      </navigator>
+    </view>
+  </view>
+</view>
